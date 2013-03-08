@@ -194,6 +194,15 @@ static const uint8_t CANTX = 69;
 #define TC_MIN_DUTY_CYCLE   0
 #define TC_RESOLUTION		8
 
+/*
+ * CAN
+ */
+#define CAN_INTERFACES_COUNT 1
+#define CAN_INTERFACE		CAN0
+#define CAN_INTERFACE_ID	ID_CAN0
+#define PIN_CAN_RX          (68u)
+#define PIN_CAN_TX          (69u)
+
 #ifdef __cplusplus
 }
 #endif
